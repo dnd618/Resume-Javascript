@@ -26,8 +26,14 @@ console.log('* Lead Programmer for iBeacon Experiment at Georgia Museum of Art')
 
 console.log('-Created native iOS virtual tour guide that used iBeacon technology to triangulate position within the museum and give information about apiece.');
 
+function displayPosition(companyName, title, description) {
+  console.log(companyName + title + description);
+}
 
+  displayPosition('Covalence', 'Software Developer','Currently, I am enrolled full-time as a student of the Covalence software bootcamp program. This program is in partnership with "IAmBham" which is an initiative to train & develop underemployed young professionals to become innovative and enter the tech field.');
 
-
+var skill = 'French'; 
+var isCool = skill === 'French';
+console.log(skill);
 
 
